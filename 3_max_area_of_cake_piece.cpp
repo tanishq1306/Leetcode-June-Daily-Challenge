@@ -16,7 +16,7 @@ public:
      
         for (int i = 1; i < m; i++) {
             w_max = max(w_max, vc[i] - vc[i - 1]);
-		}
+	}
         
         h_max = max(h_max, h - hc[n - 1]);
         w_max = max(w_max, w - vc[m - 1]);
