@@ -9,7 +9,7 @@ public:
         pq.push({nums[0], 0});
         dp[0] = nums[0];
         for (int i = 1; i < n; i++) {
-			// remove elements with indx less than (i - k)
+	    // remove elements with indx less than (i - k)
             while (pq.top().second < (i - k)) {
                 pq.pop();
             }
